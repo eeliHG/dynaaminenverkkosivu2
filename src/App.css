@@ -1,10 +1,30 @@
 .App {
   text-align: center;
+  background-color: rgb(175, 204, 229);
+  max-width: 50%;
+  margin:auto;
+  padding: 50px;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 10px 5px 20px black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.info{
+  background-color: rgba(128, 43, 212, 0.244);
+  max-width: 100px;
+  margin: auto;
+  border: 2px solid black;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  max-width: 200px;
+  margin: auto;
+  font-size: 1.5em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
